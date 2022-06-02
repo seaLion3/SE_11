@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Entity">
+      <UniqueIdentifier>{76cbe9c4-ee24-4c2f-a919-64210a4dd334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1-1-SignUp">
+      <UniqueIdentifier>{3c0025ee-1d8b-4e19-96da-a94a09bd8f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1-1-SignUp\Boundary">
+      <UniqueIdentifier>{d1b84f95-71ba-445b-a716-dd58ed749ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1-1-SignUp\Control">
+      <UniqueIdentifier>{e820b9a7-f92a-4398-a93a-bf400f2fa116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-1-LogIn">
+      <UniqueIdentifier>{deee2952-12dc-4f8e-a4f0-e21f5a7924f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-1-LogIn\Boundary">
+      <UniqueIdentifier>{85129ad4-246c-451d-9ed8-bbfaa0190e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-1-LogIn\Control">
+      <UniqueIdentifier>{341f4104-4787-4e49-b8d5-5bd52973cd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-1-EnrollProduct">
+      <UniqueIdentifier>{25f675d9-f87b-434c-8311-debdeb976040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-1-EnrollProduct\Control">
+      <UniqueIdentifier>{6c9d8cae-79c3-4d2a-9433-b3285f3b4d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-1-EnrollProduct\Boundary">
+      <UniqueIdentifier>{4413894a-0a4f-4e40-bf2f-8741c10aebee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-2-CheckSellingProduct">
+      <UniqueIdentifier>{f412fc49-b690-4f00-83f4-6a270ae6e759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-2-CheckSellingProduct\Boundary">
+      <UniqueIdentifier>{b199c36e-fba9-487e-9904-70fafca1442d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-2-CheckSellingProduct\Control">
+      <UniqueIdentifier>{4bd78113-d72f-43cb-9fba-f2b01fb752ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-2-LogOut">
+      <UniqueIdentifier>{0faffc5f-e1a8-4a45-a6d1-b669be24a3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-2-LogOut\Boundary">
+      <UniqueIdentifier>{8f0ec55a-bbd5-4a54-8aea-8783668cf129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-2-LogOut\Control">
+      <UniqueIdentifier>{481433d4-e587-4752-97f6-8faa78fb841b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-1-SearchProduct">
+      <UniqueIdentifier>{4efce310-7851-46d7-ad16-1d38484f5759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-1-SearchProduct\Boundary">
+      <UniqueIdentifier>{6adf5b37-918c-40ca-8074-fe1dc74f6342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-1-SearchProduct\Control">
+      <UniqueIdentifier>{e722760a-39b8-4451-8873-ad0df02888dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-2-PurchaseProduct">
+      <UniqueIdentifier>{075e5737-1c1c-41e8-9e6a-1b1f6f1075bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-2-PurchaseProduct\Boundary">
+      <UniqueIdentifier>{ae351ec8-833a-4176-b877-d97f967b304b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-2-PurchaseProduct\Control">
+      <UniqueIdentifier>{e50f252e-2f6f-4e53-92ac-7da8673701e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-3-PurchaseHistory">
+      <UniqueIdentifier>{0732a8ac-05cc-49be-8aaf-3a9571574541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-3-PurchaseHistory\Boundary">
+      <UniqueIdentifier>{a621a1f1-3823-4ae0-bd4c-ab782877ed9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-3-PurchaseHistory\Control">
+      <UniqueIdentifier>{378b5f49-307e-47c6-9d86-27facfbbfe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-4-ProductReview">
+      <UniqueIdentifier>{818a8a0c-b926-4db6-8c69-761bce0bbd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-4-ProductReview\Boundary">
+      <UniqueIdentifier>{335e7b7c-ba1e-4701-a8b2-1189f99f66b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4-4-ProductReview\Control">
+      <UniqueIdentifier>{bf8f8e40-481b-4dc9-852f-4b5461546b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-3-SoldOut">
+      <UniqueIdentifier>{d843482c-1b99-466a-ae1c-475d5239d34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-3-SoldOut\Boundary">
+      <UniqueIdentifier>{4fe313a2-77b9-43e7-a584-5487a2518d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3-3-SoldOut\Control">
+      <UniqueIdentifier>{ae2e21ae-6cdf-4b9e-8579-b10e28271ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5-1-SoldProduct">
+      <UniqueIdentifier>{56225f8e-5840-4c37-b052-5427aab808a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5-1-SoldProduct\Boundary">
+      <UniqueIdentifier>{c7f465b5-a622-4ea5-812a-9ca033bffb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5-1-SoldProduct\Control">
+      <UniqueIdentifier>{7e829009-87a1-4860-991b-1b6213bf0ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1-2-Resign">
+      <UniqueIdentifier>{aece1d03-b239-4c85-8e2b-820e8ccf6223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1-2-Resign\Boundary">
+      <UniqueIdentifier>{8d73fec4-5390-437c-a508-439aab82fe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1-2-Resign\Control">
+      <UniqueIdentifier>{0c4a9082-4aa9-432e-a9a4-6c9079b9dd81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAccount.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAccountList.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SignUpBoundary.cpp">
+      <Filter>소스 파일\1-1-SignUp\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SignUpControl.cpp">
+      <Filter>소스 파일\1-1-SignUp\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="LogInControl.cpp">
+      <Filter>소스 파일\2-1-LogIn\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="LogInBoundary.cpp">
+      <Filter>소스 파일\2-1-LogIn\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="EnrollProductBoundary.cpp">
+      <Filter>소스 파일\3-1-EnrollProduct\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="EnrollProductControl.cpp">
+      <Filter>소스 파일\3-1-EnrollProduct\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductList.cpp">
+      <Filter>소스 파일\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckSellingProductBoundary.cpp">
+      <Filter>소스 파일\3-2-CheckSellingProduct\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckSellingProductControl.cpp">
+      <Filter>소스 파일\3-2-CheckSellingProduct\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="LogOutControl.cpp">
+      <Filter>소스 파일\2-2-LogOut\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="LogOutBoundary.cpp">
+      <Filter>소스 파일\2-2-LogOut\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchProductBoundary.cpp">
+      <Filter>소스 파일\4-1-SearchProduct\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchProductControl.cpp">
+      <Filter>소스 파일\4-1-SearchProduct\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="PurchaseProductBoundary.cpp">
+      <Filter>소스 파일\4-2-PurchaseProduct\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="PurchaseProductControl.cpp">
+      <Filter>소스 파일\4-2-PurchaseProduct\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="PurchaseHistoryBoundary.cpp">
+      <Filter>소스 파일\4-3-PurchaseHistory\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="PurchaseHistoryControl.cpp">
+      <Filter>소스 파일\4-3-PurchaseHistory\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductReviewBoundary.cpp">
+      <Filter>소스 파일\4-4-ProductReview\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductReviewControl.cpp">
+      <Filter>소스 파일\4-4-ProductReview\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldOutProductBoundary.cpp">
+      <Filter>소스 파일\3-3-SoldOut\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldOutProductControl.cpp">
+      <Filter>소스 파일\3-3-SoldOut\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldProductBoundary.cpp">
+      <Filter>소스 파일\5-1-SoldProduct\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldProductControl.cpp">
+      <Filter>소스 파일\5-1-SoldProduct\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ResignBoundary.cpp">
+      <Filter>소스 파일\1-2-Resign\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="ResignControl.cpp">
+      <Filter>소스 파일\1-2-Resign\Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="my.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="boundary.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SignUpBoundary.h">
+      <Filter>소스 파일\1-1-SignUp\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SignUpControl.h">
+      <Filter>소스 파일\1-1-SignUp\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAccount.h">
+      <Filter>소스 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAccountList.h">
+      <Filter>소스 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInControl.h">
+      <Filter>소스 파일\2-1-LogIn\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInBoundary.h">
+      <Filter>소스 파일\2-1-LogIn\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="EnrollProductBoundary.h">
+      <Filter>소스 파일\3-1-EnrollProduct\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="EnrollProductControl.h">
+      <Filter>소스 파일\3-1-EnrollProduct\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>소스 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductList.h">
+      <Filter>소스 파일\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckSellingProductBoundary.h">
+      <Filter>소스 파일\3-2-CheckSellingProduct\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckSellingProductControl.h">
+      <Filter>소스 파일\3-2-CheckSellingProduct\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="LogOutControl.h">
+      <Filter>소스 파일\2-2-LogOut\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="LogOutBoundary.h">
+      <Filter>소스 파일\2-2-LogOut\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchProductBoundary.h">
+      <Filter>소스 파일\4-1-SearchProduct\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchProductControl.h">
+      <Filter>소스 파일\4-1-SearchProduct\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="PurchaseProductBoundary.h">
+      <Filter>소스 파일\4-2-PurchaseProduct\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="PurchaseProductControl.h">
+      <Filter>소스 파일\4-2-PurchaseProduct\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="PurchaseHistoryBoundary.h">
+      <Filter>소스 파일\4-3-PurchaseHistory\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="PurchaseHistoryControl.h">
+      <Filter>소스 파일\4-3-PurchaseHistory\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductReviewBoundary.h">
+      <Filter>소스 파일\4-4-ProductReview\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductReviewControl.h">
+      <Filter>소스 파일\4-4-ProductReview\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldOutProductBoundary.h">
+      <Filter>소스 파일\3-3-SoldOut\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldOutProductControl.h">
+      <Filter>소스 파일\3-3-SoldOut\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldProductBoundary.h">
+      <Filter>소스 파일\5-1-SoldProduct\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldProductControl.h">
+      <Filter>소스 파일\5-1-SoldProduct\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ResignBoundary.h">
+      <Filter>소스 파일\1-2-Resign\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="ResignControl.h">
+      <Filter>소스 파일\1-2-Resign\Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
