@@ -21,5 +21,7 @@ ProductReviewControl::ProductReviewControl(ifstream* in_fp) {
 	Product* product = productList->getProduct(productReviewBoundary->getName());
 
 	// Ãâ·Â
-	productReviewBoundary->printProductReview(product);
+	productReviewBoundary->pr¤²intProductReview(product);
 }
+
+
